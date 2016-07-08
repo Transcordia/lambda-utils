@@ -1,20 +1,38 @@
 {
-  "name": "lambda-utils",
-  "version": "0.1.0",
-  "description": "Lambda utility classes to eliminate some of the typical boilerplate",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "mocha test"
-  },
-  "author": "Jim Cook <jcook@transcordia.com>",
-  "license": "SEE LICENSE IN LICENSE",
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.5.3",
-    "sinon": "^1.17.4",
-    "sinon-chai": "^2.8.0"
-  },
-  "dependencies": {
-    "printf": "^0.2.4"
-  }
+    "name": "lambda-utils",
+    "version": "0.1.0",
+    "description": "Lambda utility classes to eliminate some of the typical boilerplate",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "mocha test"
+    },
+    "author": "Jim Cook <jcook@transcordia.com>",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Transcordia/lambda-utils.git"
+    },
+    "keywords": [
+        "aws lambda",
+        "lambda",
+        "lambda utilities",
+        "amazon lambda"
+    ],
+    "bugs": {
+        "url": "https://github.com/Transcordia/lambda-utils/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://raw.githubusercontent.com/Transcordia/lambda-utils/master/LICENSE"
+        }
+    ],
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "mocha": "^2.5.3",
+        "sinon": "^1.17.4",
+        "sinon-chai": "^2.8.0"
+    },
+    "dependencies": {
+        "printf": "^0.2.4"
+    }
 }
