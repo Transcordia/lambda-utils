@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - '4'
+  - '5'
+  - '6'
+
+deploy:
+  provider: npm
+  email: jcook@transcordia.com
+  api_key:
+    secure: MqMQwPIjw5/ONqHDISVouNRLQYuvGFYSbvOYXkujrG8okv1KnE05rlCYC3oMBCv/U4p1ruxbTPp4Fe3olw3GmyVnCLKA6eNYAWBv0y0llrkFEnpHZmzl/vAQG2fJhVN+dhfq0TYrFFvUMPE34reNsMIFZRGbc8VjwFj3vetMC9XXS6aMlvF1FcbPdfTOLvgL+lUiZrMa9puLiFy6yKfQ4FM0wgcwfniQgnb+W/pA+8/xFfR8nMyX8BwJmIED5JXPDaEhoXDGyfGR5oa1FCN0ZFFtw/C6UWltQTfAj2o0KpNdsnWz3ypgablsmSrGrmuKCdkks04eo2WEX7ThLnIj7ObjvDC0b6dROBJcvISQt9Wd6BdoOf2IItrzCYDL4DuqK/m4/lIqFTKPRaIJb1FYcxSe12gRQquWkcTdtxR6Xc3Sr2hhV/+kik/87TCXgJ1xblegfFgeyoD4PqgHKNfSiYLA4ip69w/K1+Oexup6mbemrIE3zovbzXkI8uaBOnFP6jqB4QP0OGvi7ysjXry/gIvpPKBI3YEKoV6voOAGLA50ll5OK2fYdEd7Lc7w515LRT7NbE4KgVKTCSf1MSAX4oR+VEdVrsMGOgWSRk/STtvTjY+OXznMwVYhM+dIud4MalQPG/TaJxU0cDI9ZR8N7XEIXxBhNVixAOmux7GO4sk=
+  on:
+    tags: true
+    branch: master
+    repo: Transcordia/lambda-utils
