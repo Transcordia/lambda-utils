@@ -4,7 +4,7 @@
     "description": "Lambda utility classes to eliminate some of the typical boilerplate",
     "main": "src/index.js",
     "scripts": {
-        "test": "mocha test"
+        "test": "mocha --recursive test"
     },
     "author": "Jim Cook <jcook@transcordia.com>",
     "repository": {
